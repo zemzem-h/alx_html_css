@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Your-Font-Family'; /* Replace with the actual font family from Figma */
+}
+
+/* Header styles */
+header {
+    position: relative;
+    background-image: url('background-image.jpg'); /* Replace with the actual background image */
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav .logo {
+    width: 50px; /* Adjust size as per Figma */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em; /* Adjust size based on Figma */
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    background-color: #6200EA; /* Example color, replace with Figma color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+/* Testimonial section styles */
+.testimonial {
+    background-color: #F7F7F7; /* Example color, replace with Figma color */
+    padding: 50px 0;
+    text-align: center;
+}
