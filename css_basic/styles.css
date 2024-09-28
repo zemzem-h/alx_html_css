@@ -1,43 +1,59 @@
-/* Ensure body is a flex container with a column layout */
+/* Add background color and padding to the body */
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
-/* Main should also be a flex container, but with a row layout */
-main {
-    display: flex;
-    flex: 1;
-    overflow-y: auto;
-}
-
-/* Article should take up 2/3 of the width, aside takes up 1/3 */
-article {
-    flex: 2;
-    overflow-y: auto;
-}
-
-aside {
-    flex: 1;
-    overflow-y: auto;
-}
-
-/* Optional: Add some padding and spacing for better appearance */
-header, footer {
-    padding: 10px;
-    background-color: #f4f4f4;
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
+    font-size: 1.5em;
 }
 
+/* Style the main content area */
 main {
-    padding: 10px;
-    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-article, aside {
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    background-color: #e4e4e4;
-    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.9em;
 }
+
+/* Style the article */
+article {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Style the aside */
+aside {
+    background-color: #ffebee;
+    border-left: 5px solid #f44336;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Optional: Add custom font styles */
+body, header, footer, main, article, aside {
+    font-family: Arial, sans-serif;
+}
+
+/* Logo styling using a Unicode character */
+.logo {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
